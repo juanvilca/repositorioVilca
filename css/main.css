@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(180, 180, 150);
+    background-image: linear-gradient(to left,rgb(211, 211, 177),rgb(102, 102, 83) );
 }
 .grid{
     display: grid;
@@ -35,7 +35,7 @@ body{
 
 /*logo y sub*/
 header{
-    background-color: rgb(180, 180, 150);
+    background-color: transparent;
     grid-area: header;
     text-align: center;
 }
@@ -48,7 +48,7 @@ header{
 }
     /*nav*/
 nav{
-    background-color: rgb(180, 180, 150);
+    background-color: transparent;
     grid-area: nav;
 }
 nav ul{
@@ -65,7 +65,7 @@ nav ul li a{
 }
     /*main*/
 main{
-    background-color: white;
+    background-color: transparent;
     grid-area: main;
 }
 .divMain{
@@ -91,7 +91,7 @@ main{
     justify-content: center;
 }
 .sectionNosotros{
-    background-color: white;
+    background-color: transparent;
     grid-area: sectionNosotros;
     display: flex;
     justify-content: center;
@@ -104,7 +104,7 @@ main{
 
 /*video y descripcion*/
 .section1{
-    background-color: white;
+    background-color: transparent;
     grid-area: section1;
     display: flex;
     justify-content: center;
